@@ -10,15 +10,15 @@ load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
 API_ID = 25395782
-API_HASH = getenv("API_HASH", "3c0f6066a07142d664690cfd34447450")
+API_HASH = "3c0f6066a07142d664690cfd34447450"
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7262095494:AAFclA3a3SDbyFkedrnQcg5g2lZF87vTUI8")
+BOT_TOKEN = "7262095494:AAFclA3a3SDbyFkedrnQcg5g2lZF87vTUI8"
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","sung_jinwo4")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "soulsupremebot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME", "𝐒𝐎𝐔𝐋 𝐒𝐔𝐏𝐑𝐄𝐌𝐄『 魂 』")
+BOT_NAME = getenv("BOT_NAME" , "𝐒𝐎𝐔𝐋 𝐒𝐔𝐏𝐑𝐄𝐌𝐄『 魂 』")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "soulmusicassistant")
 # ---------------------------------------------------------
@@ -35,7 +35,7 @@ SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = "mongodb+srv://sung:sung@cluster0.lum46qs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://tanjiro1564:tanjiro1564@cluster0.pp5yz4e.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
