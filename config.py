@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = 25395782
 API_HASH = "3c0f6066a07142d664690cfd34447450"
 # ------------------------------------------------------
-BOT_TOKEN = "7262095494:AAFclA3a3SDbyFkedrnQcg5g2lZF87vTUI8"
+BOT_TOKEN = "6289589949:AAFz53nui7kVW-MczA0_2bZNY50aW88UggU"
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","sung_jinwo4")
 # --------------------------------------------------------
